@@ -11,7 +11,7 @@ class Loquendo
 
   def initialize(opts = {})
     @command_dir = opts[:command_dir] || '/opt/Loquendo/LTTS7/bin'
-    @command     = opts[:command]     || 'SaveFile'
+    @command     = opts[:command]     || 'SaveFile-alaw'
     @sound_dir   = opts[:sound_dir]   || Dir::tmpdir
     @sound_file  = opts[:sound_file]  || 'ltts'
     @voice       = opts[:voice]       || :fernanda
