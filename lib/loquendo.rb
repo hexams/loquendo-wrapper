@@ -16,7 +16,7 @@ class Loquendo
     @sound_dir   = opts[:sound_dir]   || Dir::tmpdir
     @sound_file  = opts[:sound_file]  || 'ltts'
     @voice       = opts[:voice]       || :fernanda
-    session      = opts[:session]     || '/opt/Loquendo/LTTS7/bin/default.session'
+    self.session = opts[:session]     || '/opt/Loquendo/LTTS7/bin/default.session'
   end
 
   def self.convert(string, opts = {})
