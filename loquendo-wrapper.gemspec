@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require './lib/version'
+require 'loquendo/version'
 
 Gem::Specification.new do |s|
   s.name        = 'loquendo-wrapper'
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ['hexaclamys@gmail.com']
   s.homepage    = 'https://github.com/hexams/loquendo-wrapper'
   s.summary     = %q{Ruby wrapper for Loquendo.}
-  s.description = %q{Ruby wrapper for Loquendo using sample SaveFile command.}
+  s.description = %q{Ruby wrapper for Loquendo using sample SaveFile[-alaw] command.}
 
   s.extra_rdoc_files = ['README']
 
