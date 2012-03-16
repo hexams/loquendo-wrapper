@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.date        = Time.now.strftime("%Y-%m-%d")
   s.email       = ['hexaclamys@gmail.com']
   s.homepage    = 'https://github.com/hexams/loquendo-wrapper'
-  s.summary     = %q{Ruby wrapper for Loquendo.}
-  s.description = %q{Ruby wrapper for Loquendo using sample SaveFile[-alaw] command.}
+  s.summary     = %q{Ruby wrapper for Loquendo TTS.}
+  s.description = %q{Ruby wrapper for Loquendo TTS using sample SaveFile[-alaw] command.}
 
-  s.extra_rdoc_files = ['README']
+  s.extra_rdoc_files = ['README.md']
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
