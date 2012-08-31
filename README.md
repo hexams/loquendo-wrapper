@@ -21,7 +21,7 @@ Or install it yourself as:
 ```ruby
 require "loquendo"
 
-data = Loquendo.convert("the book is on de table")
+data = Loquendo.convert("the book is on the table")
 
 file = File.new("/tmp/sound.alaw", "w")
 file.write(data)
